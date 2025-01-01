@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import './App.css';
 import './index.css';
-import Sidebar from './Components/sideBar';
 import LandingPage from './Components/LandingPage'; // Import the LandingPage component
-
+import TopNavbar from './Components/TopNavbar';
  function App() {
   return (
-    <div className="bg-[#fefae0] min-h-screen flex items-center justify-center">
-      <Sidebar/>
-      <LandingPage /> {/* Render the LandingPage component */}
-    </div>
+<>
+  <TopNavbar />
+  <div className="bg-[#fefae0] h-screen flex items-center justify-center">
+    <LandingPage /> {/* Render the LandingPage component */}
+  </div>
+</>
+
   );
 }
 
