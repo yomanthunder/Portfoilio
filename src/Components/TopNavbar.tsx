@@ -1,5 +1,3 @@
-import React from "react";
-import SamplePage from "./SamplePage";
 import GitHubIcon from "../assets/GithubIcon.svg"
 import LinkedinIcon from "../assets/LinkedinIcon.svg"
 function TopNavbar() {

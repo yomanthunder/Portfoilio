@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import './index.css';
 import LandingPage from './Components/LandingPage'; // Import the LandingPage component

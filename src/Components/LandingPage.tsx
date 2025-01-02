@@ -1,4 +1,3 @@
-import React from 'react';
 import slowlaxImage from "../assets/slowlax.png"; // Profile image
 
 const LandingPage = () => {
